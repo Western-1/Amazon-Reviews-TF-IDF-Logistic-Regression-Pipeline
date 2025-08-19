@@ -1,0 +1,12 @@
+1. Створити віртуальне оточення і активувати:
+
+Windows (PowerShell):
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+
+Linux / mac:
+python -m venv .venv
+source .venv/bin/activate
+
+2. Встановити залежності:
+pip install -r requirements.txt
